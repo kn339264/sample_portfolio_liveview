@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  min-height: 20rem;
+  background: url("/images/header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.bg-cyan {
+  background-color:#D8F0F3;
+}
