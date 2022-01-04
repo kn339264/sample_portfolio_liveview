@@ -11,6 +11,7 @@ import Config
 # before starting your production server.
 config :sample_portfolio, SamplePortfolioWeb.Endpoint,
   url: [host: "shimmering-memorable-hyena.gigalixirapp.com"],
+  check_origin: ["//shimmering-memorable-hyena.gigalixirapp.com"]
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
